@@ -1,0 +1,23 @@
+$colortheme : (
+   primary: "#fff",
+   secondary: "#111"
+);
+
+$mix-element: (
+    text: "color",
+    bg: "background-color",
+    border: "border-color"
+);
+
+@each $name, $cssValue in $mix-element {
+    .#{$name}-primary{
+        #{$cssValue}: map-get($colortheme, "primary")
+    }
+    .#{$name}-secondary{
+        #{$cssValue}: map-get($colortheme, "secondary")
+    }
+}
+
+.bg-e-main-banner{
+    background-color: #EA4B2F;
+}
