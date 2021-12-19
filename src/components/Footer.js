@@ -19,7 +19,7 @@ const FooterWrap = styled.section`
 `
 export default function Footer() {
     return (
-        <FooterWrap className="footer-wrap px-md-5 px-1 pb-5">
+        <FooterWrap className="footer-wrap mt-2 px-md-5 px-1 py-5" style={{borderTop: "1px solid rgba(10,10,10,0.1)"}}>
             <div className="container mw-100">
                 <div className="row mb-5">
                     <div className="col">

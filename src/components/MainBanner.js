@@ -3,6 +3,9 @@ import styled from 'styled-components'
 import { CgArrowRight, CgArrowLeft } from 'react-icons/cg';
 import media from '../media/media';
 const Banner = styled.section`
+    
+    background-color:#F92800;
+ 
     .section_item{
         margin-bottom: 2em;
     }
@@ -53,13 +56,13 @@ const Banner = styled.section`
         
     }
 `
-export default function BannerBlock() {
+export default function MainBanner() {
     return (
         <Banner className="e-main-banner bg-e-main-banner d-flex justify-content-center">
            <div className="container mx-1 pb-4 h-100 d-flex flex-column justify-content-around">
                <div className="row section_item">
                     <div className="col my-2">
-                    <h1 className="e-main-banner-title">LAUNCHING OPEN EVENT</h1>
+                    <h1 className="e-main-banner-title"><em>LAUNCHING OPEN EVENT</em></h1>
                        <img onMouseDown={(ev) => {ev.preventDefault()}} role="banner" src={'/apps/e-main_banner_text.png'} className="e-main-banner-what-happened-market">
 
                        </img>

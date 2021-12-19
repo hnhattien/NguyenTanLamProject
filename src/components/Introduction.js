@@ -23,7 +23,7 @@ export default function Introduction() {
                  <div className="row d-flex h-100 align-items-center">
                     <div className="col-md-5 col-12">
                         <div className="introduction-content text-md-start text-center">
-                            <h1 className="introduction_title">What Happened!</h1>
+                            <h1 className="introduction_title mb-4">What Happened!</h1>
                             <p className="introduction_text">
                             How to create mobile-optimized videos in minutes. Not a designer, every team makes a lot of videos. Can be trimmed. Take the first step to your brand's success . How to create mobile-optimized videos in minutes
                             </p>

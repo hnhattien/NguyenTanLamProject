@@ -2,11 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 import { FaLongArrowAltRight } from 'react-icons/fa';
 import media from '../media/media';
+import { GrClose } from 'react-icons/gr';
 const WhatHappenedWrap = styled.section`
     background-image: url(/apps/what_happened_bg.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: -100px 200px;
+    background-size: cover;
+    background-position: -100px 0;
     padding-bottom: 200px !important;
     .simulate_browser_main{
         .news{
@@ -22,7 +23,7 @@ const WhatHappenedWrap = styled.section`
 `
 export default function WhatHappened() {
     return (
-        <WhatHappenedWrap style={{paddingBottom: "500px !important"}} className="what_happened_wrap py-5 bg-primary">
+        <WhatHappenedWrap  className="what_happened_wrap py-5 bg-primary">
             <div className="container mx-0 mw-100">
                 <div className="row">
                     <div className="col-md-6 col-12 m-auto">
@@ -36,7 +37,7 @@ export default function WhatHappened() {
                     </div>
                 </div>
                 <div className="row mt-5">
-                    <div className="col-md-6 col-11 m-auto p-0">
+                    <div className="col-md-5 col-11 m-auto p-0">
                         <div className="what_happened_bottom simulate_browser text-primary">
                             <div style={{alignItems: "center"}} class=" px-2 bg-secondary simulate_browser_top d-flex justify-content-between">
                                 <div>
@@ -47,7 +48,7 @@ export default function WhatHappened() {
                                     <AbstractLine/>
                                     <AbstractLine style={{marginTop: "5px"}} />
                                 </div>
-                                <span>x</span>
+                                <span role="button"><GrClose color='#fff'/></span>
                             </div>
                             <div className="simulate_browser_search_bar px-2 border border-2 border-secondary d-flex bg-primary text-secondary justify-content-between" style={{fontSize: "0.8rem", alignItems: "center", lineHeight: "initial", paddingTop: "2px", paddingBottom: "2px"}}>
                                 <span className="fw-bold">WWW.WHPN.COM/BRANDSTORY</span>

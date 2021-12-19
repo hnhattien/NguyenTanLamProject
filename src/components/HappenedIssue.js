@@ -2,9 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 const HappenedIssueWrap = styled.section`
     background-image: url(/apps/dice_1.png), 
-                      url(/apps/dice_2.png),
-                      url(/apps/happened_issue_part.png), 
-                      url(/apps/lolhaha.png);
+                      url(/apps/dice_2.png);
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: 95% 5%, 95% 100px;
     background-size: 50px, 60px;
@@ -12,7 +10,7 @@ const HappenedIssueWrap = styled.section`
 `
 export default function HappenedIssue() {
     return (
-        <HappenedIssueWrap className="happened_issues_wrap py-5" style={{ backgroundColor: "#FDDE00" }}>
+        <HappenedIssueWrap className="happened_issues_wrap pt-5 pb-2" style={{ backgroundColor: "#FDDE00" }}>
             <div className="container  mx-0 mw-100">
                 <div className="row">
                     <div className="col-md-6 col-12 m-auto">
@@ -59,29 +57,29 @@ const IssuesList = () => {
         <IssuesListWrap className="issue_list mt-5 pt-5 pb-5" >
        
 
-       <div class="issue_item not_image position-relative">
+       <div className="issue_item not_image position-relative">
            <h2 className="fw-bold" style={{marginBottom: "10%"}}>WHPN<br/>ISSUE</h2>
            <div className="bg-primary border-4 border border-secondary" style={{width: "30%", height: "20%"}}>
 
            </div>
            <img className="position-absolute" style={{width: "30%",right: "-5px",bottom:"-25px"}} src={"/apps/happned_issue_part.png"}></img>
         </div>    
-    <div class="issue_item">
+    <div className="issue_item">
         <div className="bg-secondary text-primary fw-bold">B BRAND</div>
-        <img class="issue_item_image mw-100" src="https://i.ibb.co/MPQ6ww8/B-Brand.png"/>
+        <img className="issue_item_image mw-100" src="https://i.ibb.co/MPQ6ww8/B-Brand.png"/>
     </div>
-    <div class="issue_item">
+    <div className="issue_item">
     <div className="bg-secondary text-primary fw-bold">C BRAND</div>
-        <img class="issue_item_image mw-100" src="https://i.ibb.co/9HhhhV7/C-Brand.png"/>
+        <img className="issue_item_image mw-100" src="https://i.ibb.co/9HhhhV7/C-Brand.png"/>
     </div>
-    <div class="issue_item position-relative">
+    <div className="issue_item position-relative">
     <div className="text-primary fw-bold" style={{backgroundColor: "#FF3800"}}>D BRAND</div>
-        <img class="issue_item_image mw-100" src="https://i.ibb.co/9vvRdQP/D-Brand.png"/>
+        <img className="issue_item_image mw-100" src="https://i.ibb.co/9vvRdQP/D-Brand.png"/>
         <img src={"/apps/lolhaha.png"} className="position-absolute" style={{width: "30%", right: "-20px", bottom: "-25px"}}></img>
     </div>
-    <div class="issue_item">
+    <div className="issue_item">
         <div className="text-primary bg-secondary fw-bold"> E BRAND</div>
-        <img class="issue_item_image mw-100" src="https://i.ibb.co/n6RFPLL/E-Brand.png"/>
+        <img className="issue_item_image mw-100" src="https://i.ibb.co/n6RFPLL/E-Brand.png"/>
     </div>
          
         </IssuesListWrap>

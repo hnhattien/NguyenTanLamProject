@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import productData from '../ProductData/data';
 import { BsSuitHeartFill } from 'react-icons/bs';
@@ -6,14 +6,33 @@ const ProductsWrap = styled.section`
 
 `
 export default function Products() {
+    const [isShowLess, setIsShowLess] = useState(true);
+    const [product, setProduct] = useState([]);
+    const toggleShowLess = () => {
+        
+        if(!isShowLess){
+            setIsShowLess(true);    
+            setProduct(productData.slice(0,10));
+        }
+        else{
+           setIsShowLess(false);
+           setProduct(productData);
+        }
+        
+        
+        
+    }
+    useEffect(() => {
+        setProduct(productData.slice(0, 10));
+    }, [])
     return (
-        <ProductsWrap className="products py-5">
+        <ProductsWrap className="products py-5 mb-5">
             <div className="container">
                 <div className="row">
                    <div className="col">
                       <ul className="products_list list-inline">
-                        {productData.map(value => {
-                            return <li style={{width: "200px", marginRight: "0.7rem"}} className="mb-5 product_item list-inline-item">
+                        {product.map((value, index) => {
+                            return <li key={index} style={{width: "200px", marginRight: "0.7rem"}} className="mb-5 product_item list-inline-item">
                                 <div className="image">
                                     <img style={{objectFit: "contain", width: "100%", height: "100%"}} className="" src={`/apps/${value.img}`}></img>
                                 </div>
@@ -32,8 +51,8 @@ export default function Products() {
                 <div className="row">
                     <div className="col">
                         <div className="tool-btn">
-                             <button className="py-1 see-more-btn bg-primary border-3 border border-secondary fw-bold px-4">
-                                SEE MORE
+                             <button onClick={toggleShowLess} className="py-1 see-more-btn bg-primary border-3 border border-secondary fw-bold px-4" id="toggle_show_less_product_btn">
+                                {isShowLess ? "SEE MORE" : "LESS MORE"}
                              </button>
                         </div>
                     </div>

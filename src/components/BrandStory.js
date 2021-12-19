@@ -21,13 +21,13 @@ const BrandStoryWrap = styled.section`
 `
 export default function BrandStory() {
     return (
-        <BrandStoryWrap className="brand_story py-5" style={{ backgroundColor: "#0565bb", paddingBottom: "200px" }}>
+        <BrandStoryWrap className="brand_story pt-5" style={{ backgroundColor: "#0565bb", paddingBottom: "6rem" }}>
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <div className="brand_story_head m-auto" style={{color: "#fcd32a"}}>
+                        <div className="brand_story_head m-auto my-5" style={{color: "#fcd32a"}}>
                             <h1 className="title">BRAND STORY</h1>
-                            <p className="text">How to create mobile-optimized videos in minutes. Not a designer, every team makes a lot of videos. Can be trimmed. Take the first step to your brand's success . How to create mobile-optimized videos in minutes</p>
+                            <p className="text">How to create mobile-optimized videos in minutes. Not a designer, every team makes a lot of videos. Can be trimmed. Optimized videos in minutes</p>
                         </div>
                         <BrandBody />
                     </div>

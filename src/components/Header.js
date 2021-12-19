@@ -8,6 +8,7 @@ const HeaderWrap = styled.header`
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 10000;
     a{
         text-decoration: none;
     }
@@ -80,7 +81,7 @@ export default function Header() {
         setIsShowMobileMenu(!isShowMobileMenu);
     })
     return (
-        <HeaderWrap className="header bg-secondary text-primary">
+        <HeaderWrap id="header" className="header bg-secondary text-primary">
             <section className="header-bar">
                <div className="container">
                     <div className="py-2 row d-flex justify-content-between align-items-center">
