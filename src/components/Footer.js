@@ -91,9 +91,9 @@ export default function Footer() {
                                 </p>
                             </div>
                             <div style={{flex: "1 1 0px"}} className="right_footer_bottom socials_list text-end">
-                                <a href="#"><span><img src={"/apps/N_icon.png"}></img></span></a>
-                                <a href="#"><span><img src={"/apps/facebook_icon.png"}></img></span></a>
-                                <a href="#"><span><img src={"/apps/blog_icon.png"}></img></span></a>
+                                <a href="#"><span><img src={"https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/N_icon.png"}></img></span></a>
+                                <a href="#"><span><img src={"https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/facebook_icon.png"}></img></span></a>
+                                <a href="#"><span><img src={"https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/blog_icon.png"}></img></span></a>
                             </div>
                         </div>
                     </div>

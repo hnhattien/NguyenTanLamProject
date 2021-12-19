@@ -63,7 +63,7 @@ export default function MainBanner() {
                <div className="row section_item">
                     <div className="col my-2">
                     <h1 className="e-main-banner-title"><em>LAUNCHING OPEN EVENT</em></h1>
-                       <img onMouseDown={(ev) => {ev.preventDefault()}} role="banner" src={'/apps/e-main_banner_text.png'} className="e-main-banner-what-happened-market">
+                       <img onMouseDown={(ev) => {ev.preventDefault()}} role="banner" src={'https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/e-main_banner_text.png'} className="e-main-banner-what-happened-market">
 
                        </img>
                     </div>

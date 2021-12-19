@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 const IntroductionBlock = styled.section`
     height: 380px;
-    background-image: url(/apps/introduction_banner.png);
+    background-image: url(https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/introduction_banner.png);
     background-size: cover;
     background-repeat: no-repeat;
 

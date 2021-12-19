@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 const HappenedIssueWrap = styled.section`
-    background-image: url(/apps/dice_1.png), 
-                      url(/apps/dice_2.png);
+    background-image: url(https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/dice_1.png), 
+                      url(https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/dice_2.png);
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: 95% 5%, 95% 100px;
     background-size: 50px, 60px;
@@ -48,7 +48,7 @@ const IssuesListWrap = styled.div`
     align-items: center;
     
     .square_box{
-      background-image: url(/apps/arrow_right.png);
+      background-image: url(https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/arrow_right.png);
       background-repeat: no-repeat;
       background-position: center;
     }
@@ -67,7 +67,7 @@ const IssuesList = () => {
            <div className="bg-primary square_box border-4 border border-secondary" style={{width: "30%", height: "20%"}}>
                     
            </div>
-           <img className="position-absolute" style={{width: "30%",right: "-5px",bottom:"-25px"}} src={"/apps/happned_issue_part.png"}></img>
+           <img className="position-absolute" style={{width: "30%",right: "-5px",bottom:"-25px"}} src={"https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/happned_issue_part.png"}></img>
         </div>    
     <div className="issue_item">
         <div className="bg-secondary text-primary fw-bold">B BRAND</div>
@@ -80,7 +80,7 @@ const IssuesList = () => {
     <div className="issue_item position-relative">
     <div className="text-primary fw-bold" style={{backgroundColor: "#FF3800"}}>D BRAND</div>
         <img className="issue_item_image mw-100" src="https://i.ibb.co/9vvRdQP/D-Brand.png"/>
-        <img src={"/apps/lolhaha.png"} className="position-absolute" style={{width: "30%", right: "-20px", bottom: "-25px"}}></img>
+        <img src={"https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/lolhaha.png"} className="position-absolute" style={{width: "30%", right: "-20px", bottom: "-25px"}}></img>
     </div>
     <div className="issue_item">
         <div className="text-primary bg-secondary fw-bold"> E BRAND</div>

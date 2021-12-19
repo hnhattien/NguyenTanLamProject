@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import media from '../media/media';
 const BrandStoryWrap = styled.section`
-    background-image: url(/apps/brand_story_bg.png);
+    background-image: url(https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/brand_story_bg.png);
     background-size: contain;
     background-repeat: no-repeat;
     @media ${media.xxs}{
@@ -105,7 +105,7 @@ const BrandBody = () => {
             <AbstractLine style={{top: "5px"}}/>
                 <BrandBodyWrap className="brand_story_body inner_brand_story_body bg-primary">
                 <div className="brand_story_body_image">
-                    <img className="mw-100 mh-100" src={"/apps/brand_story_body_image.png"}></img>
+                    <img className="mw-100 mh-100" src={"https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/brand_story_body_image.png"}></img>
                 </div>
 
                 <div className="px-4 brand_story_body_text text-start">

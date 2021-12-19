@@ -4,7 +4,7 @@ import { FaLongArrowAltRight } from 'react-icons/fa';
 import media from '../media/media';
 import { GrClose } from 'react-icons/gr';
 const WhatHappenedWrap = styled.section`
-    background-image: url(/apps/what_happened_bg.png);
+    background-image: url(https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/what_happened_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -100px 0;
@@ -41,7 +41,7 @@ export default function WhatHappened() {
                         <div className="what_happened_bottom simulate_browser text-primary">
                             <div style={{alignItems: "center"}} class=" px-2 bg-secondary simulate_browser_top d-flex justify-content-between">
                                 <div>
-                                    <img src="/apps/artisk.png" style={{width:"15px"}}></img>
+                                    <img src="https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/artisk.png" style={{width:"15px"}}></img>
                                     <span className="fw-bold m-0 ms-2">What Happened</span>
                                 </div>
                                 <div className="position-relative px-3 d-flex flex-column" style={{flex: "1 0 auto", alignItems: "center"}}>
@@ -55,7 +55,7 @@ export default function WhatHappened() {
                                 <span><FaLongArrowAltRight size={"1rem"} /></span>
                             </div>
                             <div className="simulate_browser_main position-relative text-secondary d-flex justify-content-center">
-                                <img className="mw-100 w-100" src={"/apps/simulate_browser_main.png"}>
+                                <img className="mw-100 w-100" src={"https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/simulate_browser_main.png"}>
                                 </img>
                                 <div style={{bottom: "50px"}} className="d-flex news position-absolute fw-bold border border-2 border-secondary">
                                     <div className="d-flex justify-content-center align-items-center px-2" style={{backgroundColor: "#FCDE01", flex: "1 0 auto"}}>HAPPY</div>

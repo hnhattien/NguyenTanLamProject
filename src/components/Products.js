@@ -34,7 +34,7 @@ export default function Products() {
                         {product.map((value, index) => {
                             return <li key={index} style={{width: "200px", marginRight: "0.7rem"}} className="mb-5 product_item list-inline-item">
                                 <div className="image">
-                                    <img style={{objectFit: "contain", width: "100%", height: "100%"}} className="" src={`/apps/${value.img}`}></img>
+                                    <img style={{objectFit: "contain", width: "100%", height: "100%"}} className="" src={`https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/${value.img}`}></img>
                                 </div>
                                 <div className="info d-flex flex-column mt-4">
                                     <h5 style={{fontSize: "1em"}} className="text-start fw-bold">{value.title}</h5>

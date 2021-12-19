@@ -115,7 +115,7 @@ export default function BestProduct() {
                                 <li className="list-inline-item product-item">
                                     <div className="product">
                                         <div className="image">
-                                            <img src={'/apps/best_product_1.png'}>
+                                            <img src={'https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/best_product_1.png'}>
                                             </img>
                                         </div>
                                         <div style={{ lineHeight: "initial" }} className="description bg-primary border border-2 border-secondary py-2 w-75">
@@ -123,7 +123,7 @@ export default function BestProduct() {
                                             <span className="description_go_button bg-secondary text-primary" role="button">GO</span>
                                         </div>
                                         <div className="rank">
-                                            <img src={"/apps/best_product_part_image.png"} />
+                                            <img src={"https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/best_product_part_image.png"} />
                                             <div className="rank_value_wrap">
                                                 <span className="rank_value">01</span>
                                             </div>
@@ -133,7 +133,7 @@ export default function BestProduct() {
                                 <li style={{ position: "relative", right: "20px" }} className="list-inline-item product-item">
                                     <div className="product">
                                         <div className="image">
-                                            <img style={{ height: "365px" }} src={'/apps/best_product_2.png'}>
+                                            <img style={{ height: "365px" }} src={'https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/best_product_2.png'}>
                                             </img>
                                         </div>
                                         <div className="description bg-primary border border-2 border-secondary py-2 w-75">
@@ -141,7 +141,7 @@ export default function BestProduct() {
                                             <span className="description_go_button bg-secondary text-primary" role="button">GO</span>
                                         </div>
                                         <div className="rank">
-                                            <img  src={"/apps/best_product_part_image.png"}/>
+                                            <img  src={"https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/best_product_part_image.png"}/>
                                             <div className="rank_value_wrap">
                                                 <span className="rank_value">02</span>
                                             </div>
@@ -151,7 +151,7 @@ export default function BestProduct() {
                                 <li style={{ position: "relative", right: "20px" }} className="list-inline-item product-item">
                                     <div className="product">
                                         <div className="image">
-                                            <img src={'/apps/best_product_3.png'}>
+                                            <img src={'https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/best_product_3.png'}>
                                             </img>
                                         </div>
                                         <div style={{ lineHeight: "initial" }} className="description border border-2 border-secondary bg-primary py-2 w-75">
@@ -159,7 +159,7 @@ export default function BestProduct() {
                                             <span className="description_go_button bg-secondary text-primary" role="button">GO</span>
                                         </div>
                                         <div className="rank">
-                                            <img  src={"/apps/best_product_part_image.png"}/>
+                                            <img  src={"https://res.cloudinary.com/daybtcqjr/image/upload/v1639901691/apps/best_product_part_image.png"}/>
                                             <div className="rank_value_wrap">
                                                 <span className="rank_value">03</span>
                                             </div>
