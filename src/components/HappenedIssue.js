@@ -46,7 +46,12 @@ const IssuesListWrap = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    
+    .square_box{
+      background-image: url(/apps/arrow_right.png);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
 }
  display: flex;
  
@@ -59,8 +64,8 @@ const IssuesList = () => {
 
        <div className="issue_item not_image position-relative">
            <h2 className="fw-bold" style={{marginBottom: "10%"}}>WHPN<br/>ISSUE</h2>
-           <div className="bg-primary border-4 border border-secondary" style={{width: "30%", height: "20%"}}>
-
+           <div className="bg-primary square_box border-4 border border-secondary" style={{width: "30%", height: "20%"}}>
+                    
            </div>
            <img className="position-absolute" style={{width: "30%",right: "-5px",bottom:"-25px"}} src={"/apps/happned_issue_part.png"}></img>
         </div>    
